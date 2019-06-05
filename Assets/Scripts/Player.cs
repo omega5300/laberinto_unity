@@ -8,10 +8,13 @@ public class Player : MonoBehaviour
     public float Fuerza;
     private Vector3 mivector;
     private Rigidbody Rb;
+    private AudioSource AudioMaster;
+    public AudioClip AudioCoin;
 
     // Start is called before the first frame update
     void Start()
     {
+        AudioMaster = this.GetComponent<AudioSource> ();
         Rb = this.GetComponent<Rigidbody>();
     }
 
@@ -32,6 +35,7 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.tag == "Coin")
         {
+            AudioMaster.PlayOneShot(AudioCoin);
             other.gameObject.SetActive(false);
         }
 
