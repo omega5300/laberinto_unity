@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -33,6 +34,24 @@ public class Player : MonoBehaviour
         {
             other.gameObject.SetActive(false);
         }
+
+        if (other.gameObject.tag == "Finish")
+        {
+            /*
+             * la escena se pone tanto el valor numerico o el nombre de la escena
+             * ejemplos:
+             * 
+             * SceneManager.LoadScene(1);
+             * 
+             * o           
+             * 
+             * SceneManager.LoadScene("lab2");           
+             * 
+             */
+
+            SceneManager.LoadScene(1);
+        }
+
     }
 
 }
