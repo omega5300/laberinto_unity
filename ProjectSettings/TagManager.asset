@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Coin
   - final
+  - Damage
   layers:
   - Default
   - TransparentFX

@@ -351,8 +351,8 @@
 /Users/PBDLABSCALI/Laberinto/Temp/bin/Debug/Unity.Analytics.Tracker.dll.mdb
 /Users/PBDLABSCALI/Laberinto/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
 /Users/PBDLABSCALI/Laberinto/Temp/bin/Debug/Unity.IvyParser.dll.mdb
-/Users/PBDLABSCALI/Laberinto/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
 /Users/PBDLABSCALI/Laberinto/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
 /Users/PBDLABSCALI/Laberinto/obj/Debug/Assembly-CSharp.csproj.CopyComplete
 /Users/PBDLABSCALI/Laberinto/obj/Debug/Assembly-CSharp.dll
 /Users/PBDLABSCALI/Laberinto/obj/Debug/Assembly-CSharp.pdb
+/Users/PBDLABSCALI/Laberinto/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
